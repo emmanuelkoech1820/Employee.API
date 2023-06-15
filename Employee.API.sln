@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.API", "Employee.API\Employee.API.csproj", "{A19B1253-2372-4C2C-9437-395386DB1563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.API", "Employee.API\Employee.API.csproj", "{A19B1253-2372-4C2C-9437-395386DB1563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Test", "Employee.Test\Employee.Test.csproj", "{53AA6FB2-658B-41FD-8FD3-134A70ABD003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Test", "Employee.Test\Employee.Test.csproj", "{53AA6FB2-658B-41FD-8FD3-134A70ABD003}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53737D77-C4FF-479A-A740-59B7CC56BC10}"
 	ProjectSection(SolutionItems) = preProject
 		UpdateSalaryScript.sql = UpdateSalaryScript.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Infrastructure", "Employee.Infrastructure\Employee.Infrastructure.csproj", "{9BF23386-25B2-4917-B6FD-223D138C1549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{53AA6FB2-658B-41FD-8FD3-134A70ABD003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53AA6FB2-658B-41FD-8FD3-134A70ABD003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53AA6FB2-658B-41FD-8FD3-134A70ABD003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF23386-25B2-4917-B6FD-223D138C1549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF23386-25B2-4917-B6FD-223D138C1549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF23386-25B2-4917-B6FD-223D138C1549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF23386-25B2-4917-B6FD-223D138C1549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
